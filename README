@@ -1,0 +1,24 @@
+Author : Chirag R. Agarwal
+Email : chirag.agarwalr@gmail.com
+Project Name : Chat Client using Socket Programming
+Site : http://agarwalchirag.wordpress.com
+
+This is a chat client between multiple clients over a common server. 
+The clients can establish a connection on the server with a valid Username and Password. 
+They can establish a connection with other clients over the server.
+The chatting is then carried out P2P.
+
+A client has the following commands to use :
+
+\list :
+
+Shows the list of the current clients connected to the server
+
+\join :
+
+Request to make a connection to the other client. The server responds to this command with "Whom do you wish to chat with ?".
+The server then asks the other client if he wishes to chat with this user. If positive, a connection is established between the two clients.
+They can now proceed to chat.
+
+
+
